@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins","sans-serif";
+    color: white;
+    margin: 0;
+    background-image: url('./pacto-visual-cWOzOnSoh6Q-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+  margin-top: -2rem ;
+  color: rgb(255, 255, 255);
+
+}
+h1{
+  font-size: 4rem;
+  margin-top: 5rem;
+  /* margin-top: -10rem; */
+}
+
+.countdown-container{
+  display: flex;
+  justify-content: center;
+}
+
+.big-text{
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 02rem;
+}
+
+.unit-c{
+  text-align: center;
+}
+
+.unit-c span{
+  font-size: 1.5rem;
+}
