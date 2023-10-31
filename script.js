@@ -18,11 +18,15 @@ function countdown() {
   const mins = Math.floor((totalSecs / 60) % 60);
   const secs = Math.floor(totalSecs % 60);
 
-  daysEl.innerHTML = days;
-  hoursEl.innerHTML = hours;
-  minsEl.innerHTML = mins;
-  secondsEl.innerHTML = secs;
+  daysEl.innerHTML = formatTime(days);
+  hoursEl.innerHTML = formatTime(hours);
+  minsEl.innerHTML = formatTime(mins);
+  secondsEl.innerHTML = formatTime(secs);
   
+}
+
+function formatTime(time){
+    return time < 10 ? `0${time}` : time
 }
 countdown();
 setInterval(countdown, 1000);
